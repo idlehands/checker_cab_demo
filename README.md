@@ -1,19 +1,12 @@
 # CheckerCabDemo
 
-To start your Phoenix server:
+This is a simple application put together to show the use of [CheckerCab](https://github.com/Shimmur/checker_cab).
+
+To run the tests:
 
   * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
+  * Create and migrate your database with `MIX_ENV=test mix ecto.setup`
+  * Run the tests with `mix test`
+  * Profit.
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
-
-## Learn more
-
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+For additional help, reach out to help@testingelixir.com
